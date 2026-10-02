@@ -1,0 +1,21 @@
+{
+  "name": "real-estate-estatehub",
+  "version": "1.0.0",
+  "description": "EstateHub MERN Real Estate Platform with 15 Stylish Features",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "seed": "node backend/src/seed/seeder.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [
+    "real-estate",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "Sunny",
+  "license": "ISC"
+}
